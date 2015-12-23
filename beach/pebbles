@@ -1,3 +1,8 @@
+
+Six http methods: get, post, patch, put, head, delete
+
+---------------------
+
 "em" is recommended by W3C. 1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
 
 There are 5 generic font families in CSS: cursive, fantasy, monospace, sans-serif, serif. They are generic because they don't refer to any specific typeface.
