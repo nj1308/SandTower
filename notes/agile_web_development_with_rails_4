@@ -1,0 +1,57 @@
+h6. Chapter 6
+
+# The generated scaffold Product includes: 
+#* migration
+#* model file, test, and test fixture
+#* route
+#* controller and test
+#* erbs for index, edit, show, new, _form
+#* helper and test
+#* assets: coffee and scss
+
+# What's the singular/plural pattern of the generated files?
+#* model and model test are singular, everything else are plural.
+
+# Describe the migration rb?
+#* Extends ActiveRecord::Migration
+#* def change ... end method
+
+# Describe the create table in migration rb?
+#* create_table :producs do |t| ... end end
+
+# Describe how to create column in create_table method?
+#* t.text :description
+#* t.decimal :price, precision: 8, scale 2
+
+# How to create a stirng span multiple lines?
+#* %{...}
+
+# How to import seed data?
+#* Product.delete_all
+#* Product.create!(...)
+#* rake db:seed
+
+# What is the application's layout file?
+#* app/views/layouts/application.html.erb
+
+# What are defined in the head of the application layout file?
+#* stylesheet_link_tag
+#* javascript_include_tag
+#* csrf_meta_tags
+
+# How to distinguish the body of one controller from another?
+#* <body class='<%= controller.controller_name %>'>...</body>
+
+# How is the controller specific content plugged into the application layout?
+#* <%= yield %>
+
+# What are some helper methods mentioned in the index.html.erb?
+#* cycle('a', 'b')
+#* image_tag('some_url', class: 'some_class')
+#* strip_tags
+#* truncate(some_str, lengt: 80)
+
+# How to use the link_to method?
+#* The link_to method generate the "a" element with href attribute, the text content and other attributes
+#* In the index.html.erb, there are 3 ways of using link_to: with a product, with a url, with a product, a method: :delete, and data: {confirm: "..."}
+#* It also shows some Rails magic: edit_product_path, new_product_path
