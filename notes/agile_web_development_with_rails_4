@@ -1,3 +1,36 @@
+h6. Chapter 7
+
+# Validate in models
+#* presence
+#* numericality
+#* uniqueness
+#* allow_blank, format
+
+# Test basic
+#* require 'test_helper' -- always include as th first line
+#* setup do ... end
+#* test 'some comment' do ... end
+
+# [ActionController::TestCase < ActiveSupport::TestCase|http://api.rubyonrails.org/classes/ActionController/TestCase.html]
+#* Simulate a http request, then do some assertions
+#* @controller, @request, @response
+#* assigns, session, cookies, flash
+#* Unlike the other 3, assigns access the controler memeber var by "assigns(:memeber_var)"
+
+# How to test if a model is valid and find out the errors messages?
+#* product.invalid? or product.valid?
+#* product.errors[:field1]
+
+# Difference between %w and %W
+#* %w[ ]   Non-interpolated Array of words, separated by whitespace
+#* %W[ ]   Interpolated Array of words, separated by whitespace
+
+# How to load fixtures?
+#* The fixtures() directive loads the fixture data corresponding to the given model name into the corresponding database table before each test method in the test caes is run.
+#* Use the "fixtures" method to load fixtures data;
+#* For example: fixtures :products
+
+
 h6. Chapter 6
 
 # The generated scaffold Product includes: 
