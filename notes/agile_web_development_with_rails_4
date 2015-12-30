@@ -1,4 +1,26 @@
-h6. Chapter 7
+h6. Chapter 8 Task C: Catalog Display
+# Use mapper to sepcify root route
+#* root 'store#index', as: 'store'
+
+# How to get a list of all Products?
+#* @products = Product.order(:title)
+
+# What's csfr_meta_tags?
+#* cross site request forgery 
+
+# How to get the most recently updated Porduct?
+#* Porduct.order(:updated_at).last
+
+# How to turn on cache in dev?
+#* config/environments/development.rb
+#* config.action_controller.perform_caching = true
+
+# What does <% cache ['store', Product.latest] do %>..<% end %> mean?
+#* This is called "fragment caching"
+#* It seems that this means, put Product.lastest in a cache named 'store' and if it's new, invoke the block.
+
+
+h6. Chapter 7 Task B: Validtation and Unit Testing
 
 # Validate in models
 #* presence
@@ -22,8 +44,8 @@ h6. Chapter 7
 #* product.errors[:field1]
 
 # Difference between %w and %W
-#* %w[ ]   Non-interpolated Array of words, separated by whitespace
-#* %W[ ]   Interpolated Array of words, separated by whitespace
+#* %w{...}   Non-interpolated Array of words, separated by whitespace
+#* %W{...}   Interpolated Array of words, separated by whitespace
 
 # How to load fixtures?
 #* The fixtures() directive loads the fixture data corresponding to the given model name into the corresponding database table before each test method in the test caes is run.
@@ -31,7 +53,7 @@ h6. Chapter 7
 #* For example: fixtures :products
 
 
-h6. Chapter 6
+h6. Chapter 6 Itenration A2: Making Prettier Listings
 
 # The generated scaffold Product includes: 
 #* migration
