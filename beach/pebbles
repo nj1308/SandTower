@@ -1,3 +1,10 @@
+Bit operations:
+* num & -num => finding the lowest bit of the number. For example, 6 (0110), -6 = 1010  0110 & 1010 = 0010
+* num ^ num = 0
+
+
+---------------------
+
 category, not cata- or cato-
 
 ---------------------
