@@ -16,11 +16,14 @@ h6. Basic Probability
 # What is the general expression of the probability of some events in rolling die?
 #* P(events) = #-of-possibilities-that-meet-my-conditions / #-of-total-equally-likely-possibilities
 
-# What is a synonym of possiblity?
-#* likelyhood
+# What is a synonym of possibility?
+#* likelihood, odds
 
 # What is a different way of saying "my conditions"?
-#* constrtaints
+#* constraints
 
 # What is a different way of saying "the total number of possibilities"
 #* sample space
+
+# What is another name for outcome?
+#* scenario 
