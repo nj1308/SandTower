@@ -1,0 +1,17 @@
+----
+
+h5. Independent and Dependent Events
+
+h6. Basic Probability
+
+# What do we call "flipping a coin" in probability?
+#* A trial, an event, or an experiment.
+
+# What is the notation of the probability of event E?
+#* P(E)
+
+# When one flips a coin a lot of times, the occurrences of HEADs ____ ____ 50%?
+#* trend toward 
+
+# What is the general expression of the probability of some events in rolling die?
+#* P(events) = #-of-possibilities-that-meet-my-conditions / #-of-total-equally-likely-possibilities
