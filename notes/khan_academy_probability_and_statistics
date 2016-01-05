@@ -13,7 +13,7 @@ h6. Basic Probability
 # When one flips a coin a lot of times, the occurrences of HEADs ____ ____ 50%?
 #* trend toward 
 
-# What is the general expression of the probability of some events in rolling die?
+# What is the general expression of the probability of some events in rolling dice?
 #* P(events) = #-of-possibilities-that-meet-my-conditions / #-of-total-equally-likely-possibilities
 
 # What is a synonym of possibility?
