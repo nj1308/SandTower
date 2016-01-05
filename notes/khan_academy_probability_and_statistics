@@ -20,10 +20,19 @@ h6. Basic Probability
 #* likelihood, odds
 
 # What is a different way of saying "my conditions"?
-#* constraints
+#* constraints, criteria
 
 # What is a different way of saying "the total number of possibilities"
 #* sample space
 
 # What is another name for outcome?
 #* scenario 
+
+# What is the P(A or B)?
+#* P(A or B) = P(A) + P(B) - P(A and B)
+
+# What does it mean that A and B are mutually exclusive?
+#* It means that P(A and B) = 0
+
+# What does it mean that A includes B?
+#* P(A and B) = P(A) ???
