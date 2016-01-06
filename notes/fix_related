@@ -1,0 +1,19 @@
+# Repeating Groups
+#* When groups of tags appear multiple times in a FIX messsage we call them repeating group;
+#* Number tag is a leading tag which specifies how many repeating groups are present in the FIX messages e.g. NoPartyIDs;
+#* First tag specified in FIX Message specification is used as marker tag to mark start and end of a FIX message;
+#* No of repeating groups must match with the number specified by NoXXX tag e.g. NoPartyIDs;
+#* Follow the order of tags specified in the FIX Message specification while constructing a repeating group;
+#* A Repeating group can contain nested repeating group within it;
+#* PartyID blocks are intruduced in FIX 4.3 so it will not work on earlier FIX protocol versions.
+
+# What's order capacity?
+#* Prop or Agency
+
+# What tag indicates the FIX version?
+#* 8
+
+# Which tag is used to denote MsgType in FIX protocol?
+#* Tag 35
+#* 35=D NewOrderSingle, 35=G CancelReplace, 35=F CancelRequest
+
