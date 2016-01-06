@@ -5,7 +5,7 @@ h6. Chapter 8 Task C: Catalog Display
 # How to get a list of all Products?
 #* @products = Product.order(:title)
 
-# What's csfr_meta_tags?
+# What's csrf_meta_tags?
 #* cross site request forgery 
 
 # How to get the most recently updated Porduct?
