@@ -28,6 +28,10 @@ h6. Chapter 8 Task C: Catalog Display
 # How to use module as mixin?
 #* Use the *include* keyword
 
+# What is "$:"?
+#* The LOAD_PATH
+#* To add the current working path to LOAD_PATH: $:.unshift(Dir.pwd)
+
 
 h6. Chapter 7 Task B: Validtation and Unit Testing
 
