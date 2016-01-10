@@ -35,4 +35,11 @@ h6. Basic Probability
 #* It means that P(A and B) = 0
 
 # What does it mean that A includes B?
-#* P(A and B) = P(A) ???
+#* P(A and B) = P(B)
+
+# What does it mean that A is the same as B?
+#* P(A) = P(B) = P(A and B)
+
+# Compound probability of independent events
+
+# anormaly

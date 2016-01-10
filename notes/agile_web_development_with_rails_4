@@ -19,6 +19,15 @@ h6. Chapter 8 Task C: Catalog Display
 #* This is called "fragment caching"
 #* It seems that this means, put Product.lastest in a cache named 'store' and if it's new, invoke the block.
 
+# What is "if __FILE__ == $0"?
+#* This is to check it the current file is the file that is used to start the program.
+
+# What is the first line of a ruby script?
+#* #!/usr/bin/env ruby
+
+# How to use module as mixin?
+#* Use the *include* keyword
+
 
 h6. Chapter 7 Task B: Validtation and Unit Testing
 

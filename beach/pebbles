@@ -1,21 +1,16 @@
-Bit operations:
-* num & -num => finding the lowest bit of the number. For example, 6 (0110), -6 = 1010  0110 & 1010 = 0010
-* num ^ num = 0
+# Safepoint: Safepoint is a point of thread execution where the JVM has the complete definition of the thread state. A full GC requires all thread to reach their safe points. Native code is not subject to the pause of safepoint. One needs to be carefule when using Unsafe to manipulate heap memory as the underlying memory may be modified by GC at the same time. Safepoint pause is not only restricted to GC, other things such as thread dump, debug break points also use safepoints.
 
+# Bit operations:
+#* num & -num => finding the lowest bit of the number. For example, 6 (0110), -6 = 1010  0110 & 1010 = 0010
+#* num ^ num = 0
 
----------------------
+# category, not cata- or cato-
 
-category, not cata- or cato-
+# Six http methods: get, post, patch, put, head, delete
 
----------------------
+# "em" is recommended by W3C. 1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
 
-Six http methods: get, post, patch, put, head, delete
+# There are 5 generic font families in CSS: cursive, fantasy, monospace, sans-serif, serif. They are generic because they don't refer to any specific typeface.
 
----------------------
-
-"em" is recommended by W3C. 1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
-
-There are 5 generic font families in CSS: cursive, fantasy, monospace, sans-serif, serif. They are generic because they don't refer to any specific typeface.
-
-Typeface (aka font family), in typography is a set of one or more fonts each composed of glyphs that share common design features.
+# Typeface (aka font family), in typography is a set of one or more fonts each composed of glyphs that share common design features.
 
