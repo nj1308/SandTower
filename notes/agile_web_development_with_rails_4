@@ -1,3 +1,31 @@
+h6. Chapter 10 TaskE: A Smarter Cart
+# How to show db migrate status?
+#* rake db:migrate:status
+
+# How to rollback a db migration?
+#* rake db:rollback
+
+
+h6. Chapter 9 Task D: Cart Creation
+#* What are we trying to accomplish in this chapter?
+#* Add an "add-to-cart" button to each cart targeting the LineItemsContorller#create;
+#* Create a LineItem for each click and the cart too if not already exists;
+#* Then redirect to CartsController#index 
+
+# How is the foreign key relationship defined?
+#* LineItem has foreign keys pointing to both Cart and Product
+#* In other words, LineItem belongs to Cart and Product, and Cart and Product has-many LineItems
+
+# How to create a LineItem of a Product given a Cart?
+#*  @cart.line_items.build(product: product)
+
+# What is the before_destroy method?
+#* The before_destroy method registers a boolean callback which may veto the destroy.
+
+# How to make a button appear on the same line as the text in CSS?
+#* display: inline;
+
+
 h6. Chapter 8 Task C: Catalog Display
 # Use mapper to sepcify root route
 #* root 'store#index', as: 'store'
@@ -29,7 +57,7 @@ h6. Chapter 8 Task C: Catalog Display
 #* Use the *include* keyword
 
 # What is "$:"?
-#* The LOAD_PATH
+#* The $LOAD_PATH
 #* To add the current working path to LOAD_PATH: $:.unshift(Dir.pwd)
 
 
