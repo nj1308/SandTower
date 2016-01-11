@@ -5,6 +5,9 @@ h6. Chapter 10 TaskE: A Smarter Cart
 # How to rollback a db migration?
 #* rake db:rollback
 
+# How to handle errors in controller?
+#* rescue_from ActiveRecord::RecordNotFound, with: :name_of_method
+
 
 h6. Chapter 9 Task D: Cart Creation
 #* What are we trying to accomplish in this chapter?
