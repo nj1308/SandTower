@@ -1,3 +1,37 @@
+h6. Chapter 12 Task G: Check Out!
+
+h6. Chapter 11 Task F: Add a Dash of Ajax
+# What's a partial template?
+#* A partial template typically starts with an '_'. For example _line_itme.html.erb.
+#* It's a resuable piece of view.
+#* A partial is called in a way like: <%= render(@cart.line_items) %>
+#* The path of the partial though is implied in the above case: app_root/app/views/line_items/_line_item.html.erb
+#* We can refer to the current object using the variable name that matches the name of the template.
+
+# How to indicate in the view that the request is Ajax?
+#* Simply add "remote: true" at the end of <%= button_to ..%>
+
+# How to respond to an Ajax request?
+#* format.js
+#* The format.js then uses the corresponding action_name.js.erb to create a javascript as the response.
+
+# The escape javascript convention?
+#* $('#cart').html('<%= escape_javascript render(@cart) %>')
+
+# How to add jquery ui support to rails?
+#* Add "gem jquery-ui-rails' in Gemfile;
+#* Add "//= require jquery.uui.effect-blind" to app_root/app/views/assets/javascripts/application.js
+
+# What's the use of helpers?
+#* Helpers are located in app_root/app/helpers/
+#* The goal of helper is to extract complex logic from the templates
+#* Typically, the helpers are implemented as modules, so they they can be mixed in to controllers.
+#* A typical example is the hidden_div_if(conditions, attributes = {}, &block}
+
+# How to simulate ajax request in test?
+#* Example: xhr :post, :create, product_id: products(:ruby).id
+#* Where xhr means XmlHttpRequest
+
 h6. Chapter 10 TaskE: A Smarter Cart
 # How to show db migrate status?
 #* rake db:migrate:status
@@ -7,6 +41,9 @@ h6. Chapter 10 TaskE: A Smarter Cart
 
 # How to handle errors in controller?
 #* rescue_from ActiveRecord::RecordNotFound, with: :name_of_method
+
+# What is the skeleton of "respond_to"?
+#* respond_to do |format| format.html {...}; foramt.json {...} end
 
 
 h6. Chapter 9 Task D: Cart Creation

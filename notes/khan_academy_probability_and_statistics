@@ -1,6 +1,34 @@
-----
+h6. Basic Set Operations
+# What's a set?
+#* It is a collection of distinct objects.
 
-h5. Independent and Dependent Events
+# What is the operater for intersection?
+#* It's a capitalized u upside down.
+#* Intersection & Union
+
+# What does null set mean and synonyms and symbol?
+#* It means nothing in a set. Synonyms:empty set O with a line through it like this: /
+
+# Define absolute complement.
+#* What is in the universe but not in a certain set.
+
+# what is the universal set?
+#* It is the entire universe.
+h6. Independent and Dependent Events
+# What is the symbol for and?
+#* an upside-down U
+
+# What is the symbole for given?
+#* It is the character |.
+
+# What does expected value mean?
+#* Will be talked about later please wait.......
+
+# How to tell if a problem is independent or not.
+#* P(A|B) = P(A) and P(B|A) = P(B)
+#* P(A and B) = P(A)*P(B)
+
+# I learned a new term called "the decision tree".
 
 h6. Basic Probability
 
@@ -17,7 +45,7 @@ h6. Basic Probability
 #* P(events) = #-of-possibilities-that-meet-my-conditions / #-of-total-equally-likely-possibilities
 
 # What is a synonym of possibility?
-#* likelihood, odds
+#* likelihood, odds, chances
 
 # What is a different way of saying "my conditions"?
 #* constraints, criteria
@@ -42,4 +70,4 @@ h6. Basic Probability
 
 # Compound probability of independent events
 
-# anormaly
+# anomaly
