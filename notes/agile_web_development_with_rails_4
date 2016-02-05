@@ -31,6 +31,31 @@ h6. Chapter 11 Task F: Add a Dash of Ajax
 # How to simulate ajax request in test?
 #* Example: xhr :post, :create, product_id: products(:ruby).id
 #* Where xhr means XmlHttpRequest
+h6. Routing Related
+# What at the 7 action for resourceful contorllers?
+#* index, show, new, create, edit, update, destroy
+
+# What's the difference between new-create and edit-update?
+#* To distinguish them, one needs to be clear with the associated HTTP verb and the path;
+#* new(GET)-create(POST), edit(GET)-update(PATCH/PUT)
+#* For resources :photos
+#** new: GET /photos/new -- return an HTML form for creating a new photo
+#** create: POST /photos -- create a new photo
+#** edit: GET /photos/:id/edit -- return a form for editing a photo 
+#** update: PATCH/PUT /photo/:id -- update a specific photo
+
+# What are the path and url helpers for a resourceful route?
+#* photos_path -> /photos
+#* new_photo_path -> /photos/new
+#* edit_photo_path(:id) -> /photos/:id/edit
+#* photo_path(:id) -> /photos/:id
+
+# How to list routes?
+#* rake routs
+#* Or restricting displaying on the routes for a controler: $> CONTROLLER=users bin/rake routes
+
+h6. Chapter 11 Task F: Add a Dash of Ajax
+>>>>>>> Stashed changes
 
 h6. Chapter 10 TaskE: A Smarter Cart
 # How to show db migrate status?
